@@ -389,3 +389,13 @@ ul.links li {
     a.at300b.at-follow-btn {
         float: inherit;
     }
+
+    /* CUSTOM IFRAME */
+    iframe.cj-ads {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .noborder {
+        border:none;
+    }
