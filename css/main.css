@@ -227,186 +227,200 @@ ul.links li {
 
 .post .last-update { text-align: right; 
     font-size: small;
-    color: lightslategray; }
-    
-    /* PHOTO POSTS */
-    .photopost { 
-        text-align:center; 
-    } 
-    .photopost:hover .highres { 
-        opacity:1; 
-    }
-    .highres { 
-        background:rgba(0,0,0,0.7); 
-        border-radius:3px; 
-        color:#fff; 
-        font-size:1.5em; 
-        margin:1em 0 0 1em; 
-        padding:.5em .8em; 
-        opacity:0; 
-        position:absolute; 
-        text-align:center; 
-        transition:.2s ease-in; 
-        z-index:99; 
-    }
-    .highres:hover { 
-        background:rgba(0,0,0,.9); 
-    }
-    img.nothighres { 
-        display:none; 
-    }
-    .photopost iframe { /* responsive photoset on mobile/tablet */
-        width:1px; 
-        min-width:100%; 
-        *width:100%; 
-    }
-    
-    /* QUOTE POSTS*/
-    h3.quotepost { 
-        margin:0 0 5% 0; 
-    }
-    
-    /* CHAT POSTS */
-    ul.chat { 
-        list-style:none; 
-        margin:0px; 
-        padding:0px; 
-    }
-    ul.chat li:last-child { 
-        border-bottom:none; 
-    }
-    
-    /* AUDIO POSTS */
-    .audioembed iframe { 
-        width:1px; 
-        min-width:100%; 
-        *width:100%; 
-    }
-    iframe.spotify_audio_player { 
-        height:80px; 
-    }
-    
-    /* VIDEO POSTS */
-    .videopost { 
-        text-align:center; 
-    }
-    
-    /* LINK/ANSWER POSTS */
-    .answerpost { 
-        text-align:center; 
-    }
-    .askedby { 
-        top:-.9em; 
-    }
-    .answeredby { /* reblogged answers*/
-        bottom:-.8em; 
-    }
-    
-    
-    /* POST INFO: NOTES, VIA/OP/SRC, REBLOG/LIKE, TAGS */
-    ul.rb li { 
-        display:inline-block; 
-        margin:0 .3em; 
-    }
-    img.postvia { /* submitter/via/op icons */
-        border-radius:20px; /* border-radius percentage fallback */
-        border-radius:100%; 
-        width:20px; 
-    } 
-    a.dsq-comment-count { 
-        text-transform:lowercase; 
-    }
-    .rebloginfo { /* submission/via/op/src info on permalink pages */
-        padding:5% 0 0 0; 
-    } 
-    ul.tags { 
-        list-style:none; 
-        margin:0; 
-        padding:0; 
-    }
-    ul.tags li { 
-        display:inline; 
-        margin:0 1em 0 0; 
-        padding:0; 
-    }
-    ul.tags li:last-child { 
-        margin:0; 
-    }
-    
-    /* POST NOTES */
-    ol.notes { 
-        list-style:none; 
-        margin:0; 
-        padding:0; 
-        text-align:left; 
-    }
-    ol.notes li.note:last-child { 
-        border-bottom:none; padding:3% 3% 0 3%; 
-    }
-    ol.notes li.note img.avatar { 
-        border-radius:16px; /* border-radius percentage fallback */
-        border-radius:100%; 
-        margin:0 1em 0 0; 
-        vertical-align:middle; 
-    }
-    ol.notes blockquote { 
-        margin:3% 0 0 0; 
-    }
-    
-    /* DAY/POST NAVIGATION */
-    .pagination ul { 
-        list-style:none; 
-        margin:0; 
-        padding:0 0 10% 0; 
-        text-align:right; 
-        width:100%; 
-    }
-    .pagination li.prevday { 
-        float:right; 
-    }  
-    .pagination li.nextday { 
-        float:left; 
-    }
-    
-    ul {    list-style: none;
-    }
-    .share li{ display:inline-block; }
-    .fb-like.fb_iframe_widget span {
-        vertical-align: baseline !important;
-    }
-    
-    @media (max-width:749px) { /* one column */
-        .vb {width:90%; }
-    }
-    
-    /* ADDTHIS TOOLBOX */
-    .addthis_toolbox.addthis_default_style {
-        height: 48px;
-    }
-    
-    a.at300b.at-follow-btn {
-        float: inherit;
-    }
+    color: lightslategray;
+}
 
-    /* CUSTOM IFRAME */
-    iframe.cj-ads {
-        width: 100%;
-        overflow: hidden;
-    }
-    
-    .noborder {
-        border:none;
-    }
+/* PHOTO POSTS */
+.photopost { 
+    text-align:center; 
+} 
+.photopost:hover .highres { 
+    opacity:1; 
+}
+.highres { 
+    background:rgba(0,0,0,0.7); 
+    border-radius:3px; 
+    color:#fff; 
+    font-size:1.5em; 
+    margin:1em 0 0 1em; 
+    padding:.5em .8em; 
+    opacity:0; 
+    position:absolute; 
+    text-align:center; 
+    transition:.2s ease-in; 
+    z-index:99; 
+}
+.highres:hover { 
+    background:rgba(0,0,0,.9); 
+}
+img.nothighres { 
+    display:none; 
+}
+.photopost iframe { /* responsive photoset on mobile/tablet */
+    width:1px; 
+    min-width:100%; 
+    *width:100%; 
+}
 
-    /* ADS PAGE */
-    #advertisers-container {
-        margin-top: 2em;
-    }
-    .advertisers {
-        margin-top: 2em;
-        margin-bottom: 2em;
-    }
-    .ads-images img {
-        max-width: 45%;
-        min-width: 250px;
-    }
+/* QUOTE POSTS*/
+h3.quotepost { 
+    margin:0 0 5% 0; 
+}
+
+/* CHAT POSTS */
+ul.chat { 
+    list-style:none; 
+    margin:0px; 
+    padding:0px; 
+}
+ul.chat li:last-child { 
+    border-bottom:none; 
+}
+
+/* AUDIO POSTS */
+.audioembed iframe { 
+    width:1px; 
+    min-width:100%; 
+    *width:100%; 
+}
+iframe.spotify_audio_player { 
+    height:80px; 
+}
+
+/* VIDEO POSTS */
+.videopost { 
+    text-align:center; 
+}
+
+/* LINK/ANSWER POSTS */
+.answerpost { 
+    text-align:center; 
+}
+.askedby { 
+    top:-.9em; 
+}
+.answeredby { /* reblogged answers*/
+    bottom:-.8em; 
+}
+
+
+/* POST INFO: NOTES, VIA/OP/SRC, REBLOG/LIKE, TAGS */
+ul.rb li { 
+    display:inline-block; 
+    margin:0 .3em; 
+}
+img.postvia { /* submitter/via/op icons */
+    border-radius:20px; /* border-radius percentage fallback */
+    border-radius:100%; 
+    width:20px; 
+} 
+a.dsq-comment-count { 
+    text-transform:lowercase; 
+}
+.rebloginfo { /* submission/via/op/src info on permalink pages */
+    padding:5% 0 0 0; 
+} 
+ul.tags { 
+    list-style:none; 
+    margin:0; 
+    padding:0; 
+}
+ul.tags li { 
+    display:inline; 
+    margin:0 1em 0 0; 
+    padding:0; 
+}
+ul.tags li:last-child { 
+    margin:0; 
+}
+
+/* POST NOTES */
+ol.notes { 
+    list-style:none; 
+    margin:0; 
+    padding:0; 
+    text-align:left; 
+}
+ol.notes li.note:last-child { 
+    border-bottom:none; padding:3% 3% 0 3%; 
+}
+ol.notes li.note img.avatar { 
+    border-radius:16px; /* border-radius percentage fallback */
+    border-radius:100%; 
+    margin:0 1em 0 0; 
+    vertical-align:middle; 
+}
+ol.notes blockquote { 
+    margin:3% 0 0 0; 
+}
+
+/* DAY/POST NAVIGATION */
+.pagination ul { 
+    list-style:none; 
+    margin:0; 
+    padding:0 0 10% 0; 
+    text-align:right; 
+    width:100%; 
+}
+.pagination li.prevday { 
+    float:right; 
+}  
+.pagination li.nextday { 
+    float:left; 
+}
+
+ul {    list-style: none;
+}
+.share li{ display:inline-block; }
+.fb-like.fb_iframe_widget span {
+    vertical-align: baseline !important;
+}
+
+@media (max-width:749px) { /* one column */
+    .vb {width:90%; }
+}
+
+/* ADDTHIS TOOLBOX */
+.addthis_toolbox.addthis_default_style {
+    height: 48px;
+}
+
+a.at300b.at-follow-btn {
+    float: inherit;
+}
+
+/* CUSTOM IFRAME */
+iframe.cj-ads {
+    width: 100%;
+    overflow: hidden;
+}
+
+.noborder {
+    border:none;
+}
+
+/* ADS PAGE */
+#advertisers-container {
+    margin-top: 2em;
+}
+.advertisers {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.ads-images img {
+    max-width: 45%;
+    min-width: 250px;
+}
+
+/* GUEST POSTS */
+img.postvia { 
+    width: unset;
+    vertical-align: middle;
+}
+
+/* ADSENSE ADS PLACEHOLDER */
+.adsbygoogle {
+    background: currentColor;
+    background-image: url('https://repository.releasemind.com/dist/assets/cd088bed5b8c102baa7d8d81e82eed3bx.svg');
+    background-size: 450px;
+}
